@@ -2,6 +2,17 @@
 
 A machine learning project that classifies emails as Spam or Ham using three different models: Random Forest, Support Vector Machine (SVM), and a TensorFlow neural network. The project is based on an open-source dataset of labeled email messages.
 
+### 🗂 Dataset
+from: https://www.kaggle.com/datasets/purusinghvi/email-spam-classification-dataset/data
+
+This project uses an open-source email spam dataset containing labeled messages. Preprocessing steps included:
+
+Lowercasing and tokenization
+
+Removing punctuation and stop words
+
+TF-IDF vectorization for feature extraction
+
 ## 🧠 Models Used
 - Random Forest Classifier
 
@@ -25,14 +36,6 @@ TensorFlow -	100%*
 
 - Numpy & Pandas
 
-### 🗂 Dataset
-This project uses an open-source email spam dataset containing labeled messages. Preprocessing steps included:
-
-Lowercasing and tokenization
-
-Removing punctuation and stop words
-
-TF-IDF vectorization for feature extraction
 
 ### 📌 Key Features
 Trained and evaluated using multiple models
